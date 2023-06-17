@@ -1,0 +1,21 @@
+.myNav{
+    width: 100%;
+    height: auto;
+    background: var(--primary--color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0%;
+    position: sticky;
+}
+.myNav ul{
+    display: flex;
+}
+.myNav ul li{
+    margin: 10px;
+}
+.link{
+    color: var(--secondary-color);
+    font-family: var(--font-familyone);
+    font-size: 25px;
+}

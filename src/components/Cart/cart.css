@@ -1,0 +1,111 @@
+.my-cart{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+.cart-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.cart-card h2{
+    text-align: center;
+}
+.empty{
+    text-align: center;
+    margin-top: 20px;
+}
+.cart-div{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+.cart-item{
+    display: flex;
+    gap: 30px;
+    max-width: 280px;
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    margin-top: 40px;
+    
+}
+.cart-img{
+    width: 50%;
+    height: 100px;
+}
+.cart-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.item-name{
+    font-size: 13px;
+    margin-top: 5px;
+}
+.sub{
+    font-weight: 600;
+}
+.remove{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.remove button{
+    padding: 5px ;
+    border: none;
+    margin-bottom: 20px;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 600;
+}
+.total{
+    padding: 10px;
+    width: 90%;
+    margin-top: 50px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+   
+}
+.check{
+    margin-top: 30px;
+}
+.li{
+    color: #fff;
+}
+.hold{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width:768px) {
+    .cart-item{
+        margin-left: 50px;
+    }
+    .cart-div{
+        width: 90%;
+    }
+    .total{
+        width: 80%;
+    }
+}
+@media screen and (min-width:1100px) {
+    .cart-div{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .total{
+        width: 70%;
+    }
+}
