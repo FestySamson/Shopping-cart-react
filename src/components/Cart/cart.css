@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    
+    margin-bottom: 30px;
 }
 .cart-card{
     width: 100%;
@@ -86,6 +86,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 @media screen and (min-width:768px) {
     .cart-item{
