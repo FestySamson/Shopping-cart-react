@@ -1,0 +1,73 @@
+.bill{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.check{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form input{
+    display: block;
+    margin-bottom: 20px;
+    width: 250px;
+    padding: 10px 5px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background: none;
+}
+.form input:focus{
+    border-bottom: 2px solid #000;
+}
+.form-inputs{
+    margin-bottom: 20px;
+}
+.form-inputs p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+.ff img{
+    width: 70%;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.ff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ff button{
+    display: block;
+    width: 80%;
+    padding: 7px 0;
+    background: #000;
+    font-family: var(--font-familyone);
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+.ff p{
+    margin-bottom: 20px;
+    font-weight: bold;
+}

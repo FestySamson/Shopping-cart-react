@@ -98,15 +98,43 @@
     .total{
         width: 80%;
     }
+    .my-cart{
+        
+        width: 60%;
+    }
+    .my-cart-hold{
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .hold{
+        width:30%;
+    }
 }
 @media screen and (min-width:1100px) {
     .cart-div{
-        width: 70%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
     .total{
         width: 70%;
+    }
+    .my-cart{
+        
+        width: 60%;
+    }
+    .my-cart-hold{
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .hold{
+        width:30%;
     }
 }
